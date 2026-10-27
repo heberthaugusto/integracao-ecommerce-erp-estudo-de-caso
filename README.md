@@ -136,6 +136,8 @@ Com o pedido do site dentro do ERP com a data real de pagamento, foi possível a
 Python (Flask, gunicorn) · nginx com HTTPS · systemd · APIs REST · Webhooks · MySQL · Shell Script e cron · Linux (AWS) · Nuvemshop (API, webhooks e homologação) · ERP Nérus (API e webhooks via hub)
 
 ---
+> ⚖️ **Licença:** Este texto está licenciado sob [Creative Commons Atribuição-NãoComercial 4.0 Internacional (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/deed.pt-br). Você pode compartilhar e adaptar o conteúdo para fins não comerciais, desde que cite o autor. A integração descrita é propriedade da empresa onde foi desenvolvida e não faz parte desta licença.
+---
 
 ## 👤 Autor
 
