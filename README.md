@@ -1,6 +1,6 @@
 # 🔗 Integração E-commerce x ERP, estudo de caso
 
-> Integração entre a plataforma Nuvemshop e o ERP Nérus em uma loja de varejo com loja física, e-commerce e cursos. Cerca de 1.600 pedidos por mês (pico de 3.700 na Páscoa) e 5.250 SKUs sincronizados, com webhooks nos dois sentidos, HTTPS, fila de retentativas, reconciliação automática e alertas. Homologada pela Nuvemshop.
+> Integração entre a plataforma Nuvemshop e o ERP Nérus em uma loja de varejo com loja física, e-commerce e cursos. Cerca de 1.600 pedidos por mês (pico de 3.700 na Páscoa) e 5.250 SKUs sincronizados, com webhooks nos dois sentidos, HTTPS, fila de retentativas, reconciliação automática e alertas. Desenvolvida conforme os requisitos de homologação da Nuvemshop, com o processo de homologação em andamento.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](#)
 [![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)](#)
@@ -18,7 +18,7 @@
 
 A loja já tinha uma integração entre o ERP e a plataforma de e-commerce anterior, baseada em API REST e consultas periódicas (polling), sem HTTPS e sem webhooks. Ela cobria pedidos, estoque, nota fiscal, rastreio, cancelamento e cadastro de produto novo, mas tudo dependia de varreduras em intervalos fixos, e alguns casos ficavam com a equipe: a mudança de status de pedidos refeitos no ERP e os pedidos mistos (produto e curso juntos) não tinham tratamento automático. Também não havia alertas por e-mail, então uma pendência só era descoberta quando alguém olhava.
 
-Quando a loja migrou o e-commerce para a Nuvemshop, a integração precisou ser refeita. A decisão foi aproveitar a troca para subir o nível da infraestrutura (HTTPS, webhooks nos dois sentidos, serviços gerenciados pelo sistema operacional), deixar os cadastros mais corretos e automatizar o que ainda era manual. A integração foi desenvolvida internamente, do zero, e homologada pela Nuvemshop.
+Quando a loja migrou o e-commerce para a Nuvemshop, a integração precisou ser refeita. A decisão foi aproveitar a troca para subir o nível da infraestrutura (HTTPS, webhooks nos dois sentidos, serviços gerenciados pelo sistema operacional), deixar os cadastros mais corretos e automatizar o que ainda era manual. A integração foi desenvolvida internamente, do zero, seguindo os requisitos de homologação da Nuvemshop, cujo processo está em andamento.
 
 ---
 
@@ -133,10 +133,8 @@ Com o pedido do site dentro do ERP com a data real de pagamento, foi possível a
 
 ## 🛠️ Stack
 
-Python (Flask, gunicorn) · nginx com HTTPS · systemd · APIs REST · Webhooks · MySQL · Shell Script e cron · Linux (AWS) · Nuvemshop (API, webhooks e homologação) · ERP Nérus (API e webhooks via hub)
+Python (Flask, gunicorn) · nginx com HTTPS · systemd · APIs REST · Webhooks · MySQL · Shell Script e cron · Linux (AWS) · Nuvemshop (API, webhooks e processo de homologação) · ERP Nérus (API e webhooks via hub)
 
----
-> ⚖️ **Licença:** Este texto está licenciado sob [Creative Commons Atribuição-NãoComercial 4.0 Internacional (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/deed.pt-br). Você pode compartilhar e adaptar o conteúdo para fins não comerciais, desde que cite o autor. A integração descrita é propriedade da empresa onde foi desenvolvida e não faz parte desta licença.
 ---
 
 ## 👤 Autor
