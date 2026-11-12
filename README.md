@@ -137,6 +137,12 @@ Python (Flask, gunicorn) · nginx com HTTPS · systemd · APIs REST · Webhooks 
 
 ---
 
+## 🧩 Código relacionado
+
+Os padrões usados nesta integração (receptor de webhooks com assinatura, lock por pedido, fila de retentativas, sincronização com espera, agenda de promoções, divisão de pedido misto e status idempotente) estão reescritos de forma genérica e com testes em [padroes-integracao-python](https://github.com/heberthaugusto/padroes-integracao-python).
+
+---
+
 ## 👤 Autor
 
 **Heberth Augusto**
