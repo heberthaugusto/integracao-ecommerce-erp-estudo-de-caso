@@ -10,7 +10,7 @@
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)](#)
 [![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat)](#)
 
-> ℹ️ Este repositório é um **estudo de caso de arquitetura**, sem código. A integração é propriedade da empresa onde foi desenvolvida e está em produção. Nomes de servidores, tabelas, endpoints internos, identificadores e credenciais foram omitidos de propósito. Trechos de código sanitizados podem ser apresentados em entrevista técnica.
+> ℹ️ Este repositório é um **estudo de caso de arquitetura**, sem código. A integração é propriedade da empresa onde foi desenvolvida e está em produção. Nomes de servidores, tabelas, endpoints internos, identificadores e credenciais foram omitidos de propósito. Os padrões de código usados na integração estão reescritos de forma genérica, com dados fictícios e testes automatizados, no repositório [padroes-integracao-python](https://github.com/heberthaugusto/padroes-integracao-python).
 
 ---
 
