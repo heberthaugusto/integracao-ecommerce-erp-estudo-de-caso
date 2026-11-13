@@ -18,7 +18,7 @@
 
 A loja já tinha uma integração entre o ERP e a plataforma de e-commerce anterior, baseada em API REST e consultas periódicas (polling), sem HTTPS e sem webhooks. Ela cobria pedidos, estoque, nota fiscal, rastreio, cancelamento e cadastro de produto novo, mas tudo dependia de varreduras em intervalos fixos, e alguns casos ficavam com a equipe: a mudança de status de pedidos refeitos no ERP e os pedidos mistos (produto e curso juntos) não tinham tratamento automático. Também não havia alertas por e-mail, então uma pendência só era descoberta quando alguém olhava.
 
-Quando a loja migrou o e-commerce para a Nuvemshop, a integração precisou ser refeita. A decisão foi aproveitar a troca para subir o nível da infraestrutura (HTTPS, webhooks nos dois sentidos, serviços gerenciados pelo sistema operacional), deixar os cadastros mais corretos e automatizar o que ainda era manual. A integração foi desenvolvida internamente, do zero, seguindo os requisitos de homologação da Nuvemshop, cujo processo está em andamento.
+Quando a loja migrou o e-commerce para a Nuvemshop, a integração precisou ser refeita pois a Nuvemshop não tinha integração nativa com o ERP Nérus. A decisão foi aproveitar a troca para subir o nível da infraestrutura (HTTPS, webhooks nos dois sentidos, serviços gerenciados pelo sistema operacional), deixar os cadastros mais corretos e automatizar o que ainda era manual. A integração foi desenvolvida internamente, do zero, seguindo os requisitos de homologação da Nuvemshop, cujo processo está em andamento.
 
 ---
 
