@@ -1,6 +1,6 @@
 # 🔗 Integração E-commerce x ERP, estudo de caso
 
-> Integração entre a plataforma Nuvemshop e o ERP Nérus em uma loja de varejo com loja física, e-commerce e cursos. Cerca de 1.600 pedidos por mês (pico de 3.700 na Páscoa) e 5.250 SKUs sincronizados, com webhooks nos dois sentidos, HTTPS, fila de retentativas, reconciliação automática e alertas. Desenvolvida conforme os requisitos de homologação da Nuvemshop, com o processo de homologação em andamento.
+> Integração entre a plataforma Nuvemshop e o ERP Nérus em uma loja de varejo com loja física, e-commerce e cursos. Cerca de 1.600 pedidos por mês e 5.250 SKUs sincronizados, com webhooks nos dois sentidos, HTTPS, fila de retentativas, reconciliação automática e alertas. Desenvolvida conforme os requisitos de homologação da Nuvemshop, com o processo de homologação em andamento.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](#)
 [![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)](#)
